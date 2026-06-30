@@ -1,0 +1,214 @@
+*{
+    margin:0;
+    padding:0
+}
+body{
+    background-color: lightgray;
+    position: relative;
+}
+header{
+    position:fixed;
+    z-index: 1000;
+    top:0px;
+    background: -webkit-radial-gradient(ellipse, #b0dee6, #7dabe6); 
+    background: -moz-radial-gradient(ellipse, #b0dee6, #7dabe6);    
+    background: radial-gradient(ellipse, #b0dee6, #7dabe6);  
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-small;
+    padding:10px;
+    height: 120px;
+    width: 100%;
+}
+header img{
+    height: 80px;
+    width: auto;
+}
+footer{
+    background: -webkit-radial-gradient(ellipse, #b0dee6, #7dabe6); 
+    background: -moz-radial-gradient(ellipse, #b0dee6, #7dabe6);    
+    background: radial-gradient(ellipse, #b0dee6, #7dabe6);  
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+footer a{
+    text-decoration: none;
+}
+nav{
+    position:fixed;
+    z-index: 1000;
+    top:120px;
+    width: 100%;
+    background-color: #15123d;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 40px;
+}
+
+.nav-list{
+    list-style: none;
+    display:flex
+}
+ul:not(.nav-list) {
+  list-style-type: disc;
+  padding-left: 20px; 
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue ;
+    padding:0 20px
+}
+nav a:hover{
+    color:red
+}
+nav a:visited{
+    color:yellow
+}
+nav a:active{
+    color:purple
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: center;
+    padding:auto;
+    margin:auto;
+    height: auto;
+    width: auto;
+}
+table tr,td,th {
+  border: 2px solid rgb(126, 155, 206);
+  padding:auto;
+  margin:auto;
+}
+h1,h2,h3{
+    text-align: center;
+}
+table thead{
+    background-color:rgb(68, 123, 168);
+}
+tbody tr:nth-child(even){
+    background-color: lightblue;
+}
+tbody tr:nth-child(odd) {
+  background-color: white;
+}
+tr:hover{
+    background-color: gray!important
+}
+
+#submit{
+    display:flex;
+    justify-content: center;
+    gap: 30px;
+}
+a{
+    text-align: center;
+    border: 1px solid black;
+    text-decoration: none;   
+}
+
+
+
+
+
+.r1, .r2, .r3 {
+    border: 1px, solid,  #8e8be4;
+    border-collapse: collapse;
+    position: absolute;
+    top: 100px;
+    text-align: center;
+    width: 505px;
+    height: 30px;
+    background-color: #77a5e4;
+}
+.r1{
+  left:0;
+}
+.r2{
+  left:505px;
+}
+.r3{
+  left:1010px;
+}
+.r1:hover {
+    background-color: white;
+}
+
+.r2:hover {
+    background-color: white;
+}
+
+.r3:hover {
+    background-color: white;
+}
+#hyperspectral,#lidar,#nanophotonics,#medical,#environmental,#wearable,#iot,#ai{
+   float: left;
+
+}
+#opt-form,#bio-form,#sma-form{
+  display: none;
+}
+.r1:hover + #opt-form, #opt-form:hover{
+    display: block;
+}
+.r2:hover + #bio-form, #bio-form:hover {
+    display: block;
+}
+.r3:hover + #sma-form, #sma-form:hover {
+    display: block;
+}
+
+#blank1,#blank2 {
+    clear: left;
+}
+#result-table{
+  height: 400px;
+  margin-top: 80px;
+  clear: both;
+}
+#welcome-block{
+  height: 60px;
+  padding-top: 20px;
+  margin-top: 160px;
+}
+#JS1 h3{
+  height: 50px;
+}
+#button1,#button2,#button3,#button4,#button5,#button6,#button7,#button8{
+  width: 502px;
+  height: 80px;
+}
+form{
+  border:1px solid rgb(114, 103, 201);
+  
+}
+
+
+
+
+
+
+
+table thead tr{
+  height: 40px;
+}
+table tbody tr{
+  height: 30px;
+}
+table{
+  text-align: center;
+  padding:0 auto;
+  width: 600px;
+  height: auto;
+}
+.clear,.submit{
+  color: #000;
+  text-decoration: none;
+}
+.clear,.submit:active {
+  color: inherit; 
+  text-decoration: inherit; 
+}
