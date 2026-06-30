@@ -1,0 +1,6 @@
+.DS_Store
+**/.DS_Store
+*.zip
+
+# Duplicate extracted archive content; the canonical CW3 version is at /CW3.
+CW3/CW3/
